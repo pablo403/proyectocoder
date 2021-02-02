@@ -1,0 +1,23 @@
+footer {
+	text-align: center;
+	border-top: solid 1px;
+	background-image: linear-gradient(to top, #8855, grey, lightgrey, white);
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	color: black;
+	padding-top: 20px;
+
+	div {
+		div{
+			div{
+				div{
+					div{
+						display: flex;
+						justify-content: center;
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+}
