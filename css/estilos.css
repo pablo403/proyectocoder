@@ -155,7 +155,7 @@ p {
   display: flex;
   flex-wrap: row;
   justify-content: center;
-  background-image: url(imagenes/ofertas/champagne.jpg); }
+  background-image: url(../Imagenes/Ofertas/Champagne.jpg); }
 
 .flex3 {
   border: solid 2px;
