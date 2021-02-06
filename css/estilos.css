@@ -113,7 +113,6 @@ p {
 .box3 {
   border: inset 10px #706666;
   width: 1240px;
-  height: 300px;
   margin: 30px auto 30px auto;
   background-image: linear-gradient(to top, #8855, lightgrey, white); }
 
