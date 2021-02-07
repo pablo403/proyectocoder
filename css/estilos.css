@@ -65,13 +65,14 @@ p {
   flex-direction: row;
   justify-content: space-around; }
 
-.listadiseño {
+.listamodelo {
   margin: 20px;
   background-size: cover;
   font-weight: bold;
   font-size: 120%;
   color: white;
-  width: 450px; }
+  width: 370px;
+  height: 370px; }
 
 .listacerveza {
   background-image: url(../Imagenes/Principal/cerveza.jpg); }
