@@ -13,8 +13,10 @@ header {
   line-height: 200%;
   letter-spacing: 5px;
   text-decoration: underline; }
-  header div ul li {
-    list-style: none; }
+
+div ul li {
+  list-style: none;
+  text-align: center; }
 
 .menu {
   font-size: 15px; }
