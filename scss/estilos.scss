@@ -55,14 +55,6 @@ p {
 	justify-content: space-around;
 }
 
-.listamodelo {
-	margin-top: 15px;
-	margin-bot: 15px;
-	background-size: cover;
-	color: white;
-	width: 370px;
-}
-
 .listacerveza {
 	background-image: url(../Imagenes/Principal/cerveza.jpg);
 }
@@ -413,5 +405,40 @@ p {
 	.categorias_fotos-tamaño {
 		width: 40px;
 		height: 25px;
+	}
+}
+
+.listamodelo {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-size: cover;
+	color: white;
+	width: 370px;
+}
+@media (max-width: 1400px){
+	.listamodelo {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		background-size: cover;
+		color: white;
+		width: 350px;
+	}
+}
+@media (max-width: 1200px){
+	.listamodelo {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		background-size: cover;
+		color: white;
+		width: 280px;
+	}
+}
+@media (max-width: 500px){
+	.listamodelo {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		background-size: cover;
+		color: white;
+		width: 350px;
 	}
 }
