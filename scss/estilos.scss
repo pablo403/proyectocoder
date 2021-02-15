@@ -3,6 +3,7 @@
 
 //Header Start
 @import "header";
+
 .menu {
 	font-size: 15px;
 }
@@ -115,7 +116,6 @@ p {
 .box3{
 	border: inset 2px #706666;
 	width: 1240px;
-	
 	margin: 30px auto 30px auto;
 	background-image: linear-gradient(to top, #8855, lightgrey, white);
 }	
@@ -174,7 +174,7 @@ p {
 }
 
 .ofertaflex {
-	border:groove 1px;
+	border: groove 1px;
 	margin: 10px;
 	font-size: 40px;
 	font-family: 'Dancing Script', cursive;
@@ -293,12 +293,6 @@ p {
 	color: #BF2D0C;
 	text-align: center;
 }
-
-.categorias_fotos-tamaño {
-	width: 400px;
-	height: 240px;
-}
-
 .lineas {
 	border-left: solid 1px;
 	border-right: solid 1px;
@@ -364,4 +358,33 @@ p {
 }
 .preguntas--5 {
 	@include preguntas(pink, 900px);
+}
+
+.categorias_fotos-tamaño {
+	width: 400px;
+	height: 240px;
+}
+@media (max-width: 1400px){
+	.categorias_fotos-tamaño {
+		width: 300px;
+		height: 180px;
+	}
+}
+@media (max-width: 1200px){
+	.categorias_fotos-tamaño {
+		width: 200px;
+		height: 120px;
+	}
+}
+@media (max-width: 800px){
+	.categorias_fotos-tamaño {
+		width: 120px;
+		height: 70px;
+	}
+}
+@media (max-width: 460px){
+	.categorias_fotos-tamaño {
+		width: 80px;
+		height: 50px;
+	}
 }
