@@ -18,3 +18,19 @@ div {
 		}
 	}
 }
+
+.menu {
+	font-size: 15px;
+}
+.menu_nav {
+	font-family: Roboto;
+}
+
+.menu_nav--fuente {
+	color: black;
+
+}
+.menu_nav--hover:hover {
+	transform: scale(1.3);
+	transition: 1s;
+}
