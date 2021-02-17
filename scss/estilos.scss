@@ -274,26 +274,25 @@ p {
 @mixin preguntas ($fondo, $ancho){
 	background-color: $fondo;
 	width: $ancho;
-	
 	font-family: Roboto;
 	display: flex;
 	justify-content: center;
 	margin: 10px;
 }	
 .preguntas--1 {
-	@include preguntas(#FCF3CF, 900px);	
+	@include preguntas(#9EBBBB, 900px);	
 }
 .preguntas--2 {
-	@include preguntas(#A9DFBF, 900px);
+	@include preguntas(#7D9A9A, 900px);
 }
 .preguntas--3 {
-	@include preguntas(#FBEEE6, 900px);
+	@include preguntas(#9EBBBB, 900px);
 }
 .preguntas--4 {
-	@include preguntas(#E8F6F3, 900px);
+	@include preguntas(#7D9A9A, 900px);
 }
 .preguntas--5 {
-	@include preguntas(pink, 900px);
+	@include preguntas(#9EBBBB, 900px);
 }
 
 .letra {
@@ -425,7 +424,7 @@ p {
 @media (max-width: 800px){
 	p {
 		font-family: 'Dancing Script', cursive;
-		font-size: 15px;
+		font-size: 20px;
 		color: black;
 		text-align: center;
 	}
