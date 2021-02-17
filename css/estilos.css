@@ -2,34 +2,63 @@
 body {
   background-color: #8855; }
 
-header {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 120%;
-  font-family: sans-serif;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 200%;
-  letter-spacing: 5px;
-  text-decoration: underline; }
-
-div ul li {
+header div ul li {
   list-style: none;
   text-align: center; }
 
-.menu {
-  font-size: 15px; }
-
 .menu_nav {
-  font-family: Roboto; }
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: Roboto;
+  margin-left: 320px;
+  margin-right: 100px; }
 
-.menu_nav--fuente {
-  color: black; }
+.menu_nav2 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: Roboto;
+  margin-right: 40px; }
 
 .menu_nav--hover:hover {
-  transform: scale(1.3);
-  transition: 1s; }
+  transform: scale(1.2);
+  transition: 0s; }
+
+@media (max-width: 1700px) {
+  .menu_nav {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 140%;
+    font-family: Roboto;
+    margin-left: 220px;
+    margin-right: 90px; } }
+
+@media (max-width: 1500px) {
+  .menu_nav {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 140%;
+    font-family: Roboto;
+    margin-left: 110px;
+    margin-right: 80px; } }
+
+@media (max-width: 1350px) {
+  .menu_nav {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 140%;
+    font-family: Roboto;
+    margin-left: 20px;
+    margin-right: 50px; } }
+
+@media (max-width: 1050px) {
+  .menu_nav {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 140%;
+    font-family: Roboto;
+    margin-right: 30px; } }
 
 footer {
   text-align: center;
