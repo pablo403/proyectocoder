@@ -8,6 +8,8 @@ h2 {
 	font-style: italic;
 	font-weight: lighter;
 	text-decoration: underline;
+	margin-top: 40px;
+	margin-bottom: 30px;
 }
 
 p {
@@ -263,6 +265,12 @@ p {
 	background-image: linear-gradient(to right, #8855, lightgrey, white, lightgrey, #8855);
 }
 
+.formu-div {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
 @mixin preguntas ($fondo, $ancho){
 	background-color: $fondo;
 	width: $ancho;
@@ -414,3 +422,22 @@ p {
 	}
 }
 
+@media (max-width: 800px){
+	p {
+		font-family: 'Dancing Script', cursive;
+		font-size: 15px;
+		color: black;
+		text-align: center;
+	}
+}
+@media (max-width: 800px){
+	h2 {
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: lighter;
+	text-decoration: underline;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	}
+}
