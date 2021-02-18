@@ -413,26 +413,14 @@ p {
 
 @media (max-width: 1400px) {
   .listamodelo {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-size: cover;
-    color: white;
     width: 350px; } }
 
 @media (max-width: 1200px) {
   .listamodelo {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-size: cover;
-    color: white;
     width: 280px; } }
 
 @media (max-width: 500px) {
   .listamodelo {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-size: cover;
-    color: white;
     width: 350px; } }
 
 @media (max-width: 800px) {
