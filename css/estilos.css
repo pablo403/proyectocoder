@@ -2,9 +2,9 @@
 body {
   background-color: #8855; }
 
-header div ul li {
-  list-style: none;
-  text-align: center; }
+.bannerdisplay {
+  display: block;
+  margin: auto; }
 
 .menu_nav {
   font-style: italic;
