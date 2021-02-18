@@ -262,7 +262,6 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(to right, #8855, lightgrey, white, lightgrey, #8855);
 }
 
 .formu-div {
@@ -272,27 +271,29 @@ p {
 
 
 @mixin preguntas ($fondo, $ancho){
-	background-color: $fondo;
+	background-image: $fondo;
 	width: $ancho;
 	font-family: Roboto;
 	display: flex;
 	justify-content: center;
 	margin: 10px;
+	border: solid 1px;
+	
 }	
 .preguntas--1 {
-	@include preguntas(#9EBBBB, 900px);	
+	@include preguntas(linear-gradient(to top, #8855, lightgrey, white), 900px);	
 }
 .preguntas--2 {
-	@include preguntas(#7D9A9A, 900px);
+	@include preguntas(linear-gradient(to top, #8855, lightgrey, white), 900px);
 }
 .preguntas--3 {
-	@include preguntas(#9EBBBB, 900px);
+	@include preguntas(linear-gradient(to top, #8855, lightgrey, white), 900px);
 }
 .preguntas--4 {
-	@include preguntas(#7D9A9A, 900px);
+	@include preguntas(linear-gradient(to top, #8855, lightgrey, white), 900px);
 }
 .preguntas--5 {
-	@include preguntas(#9EBBBB, 900px);
+	@include preguntas(linear-gradient(to top, #8855, lightgrey, white), 900px);
 }
 
 .letra {

@@ -304,52 +304,56 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(to right, #8855, lightgrey, white, lightgrey, #8855); }
+  align-items: center; }
 
 .formu-div {
   margin-top: 15px;
   margin-bottom: 15px; }
 
 .preguntas--1 {
-  background-color: #9EBBBB;
+  background-image: linear-gradient(to top, #8855, lightgrey, white);
   width: 900px;
   font-family: Roboto;
   display: flex;
   justify-content: center;
-  margin: 10px; }
+  margin: 10px;
+  border: solid 1px; }
 
 .preguntas--2 {
-  background-color: #7D9A9A;
+  background-image: linear-gradient(to top, #8855, lightgrey, white);
   width: 900px;
   font-family: Roboto;
   display: flex;
   justify-content: center;
-  margin: 10px; }
+  margin: 10px;
+  border: solid 1px; }
 
 .preguntas--3 {
-  background-color: #9EBBBB;
+  background-image: linear-gradient(to top, #8855, lightgrey, white);
   width: 900px;
   font-family: Roboto;
   display: flex;
   justify-content: center;
-  margin: 10px; }
+  margin: 10px;
+  border: solid 1px; }
 
 .preguntas--4 {
-  background-color: #7D9A9A;
+  background-image: linear-gradient(to top, #8855, lightgrey, white);
   width: 900px;
   font-family: Roboto;
   display: flex;
   justify-content: center;
-  margin: 10px; }
+  margin: 10px;
+  border: solid 1px; }
 
 .preguntas--5 {
-  background-color: #9EBBBB;
+  background-image: linear-gradient(to top, #8855, lightgrey, white);
   width: 900px;
   font-family: Roboto;
   display: flex;
   justify-content: center;
-  margin: 10px; }
+  margin: 10px;
+  border: solid 1px; }
 
 .letra {
   font-family: 'Dancing Script', cursive;
