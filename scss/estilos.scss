@@ -287,12 +287,6 @@ p {
 	align-items: center;
 }
 
-.formu-div {
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-
 @mixin preguntas ($fondo, $ancho){
 	background-image: $fondo;
 	width: $ancho;
@@ -409,4 +403,48 @@ p {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	}
+}
+
+@media (max-width: 2200px){
+	.form-control {
+		display:block;
+		margin:auto;
+		width: 80%;
+	}
+}
+
+@media (max-width: 1400px){
+	.form-control {
+		display:block;
+		margin:auto;
+		width: 50%;
+	}
+}
+
+@media (max-width: 1400px){
+	.form-control {
+		display:block;
+		margin:auto;
+		width: 300px;
+	}
+}
+
+.form-control2 {
+    display: block;
+    width: 300px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    display:block;
+	margin:auto;
 }
